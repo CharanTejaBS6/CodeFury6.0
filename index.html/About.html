@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Mental Health Resources</title>
+    <style>
+        /* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Header styles */
+header {
+    background-color:white;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    text-shadow: #000000e2 2px 2px 4px;
+    color:#3498db
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #477985;
+}
+
+/* Container styles */
+.container {
+    max-width: 1400px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* About section styles */
+.about-section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+ 
+}
+
+
+.about-section:hover {
+    transform: translateY(-40px);
+}
+
+.about-section h2 {
+    font-size: 2rem;
+    margin: 0 0 15px;
+    color: #333;
+}
+
+.about-section p {
+    margin: 15px 0;
+    color: #555;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    clear: both;
+    margin-top: 80px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (min-width: 700px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-section {
+        flex: 0.3;
+        margin: 0;
+    }
+
+    header h1 {
+        font-size: 3rem;
+    }
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #05088a;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: #91f2ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover {
+    background-color: #5cddfa;
+    color: rgb(255, 255, 255);
+  }
+
+  .topnav a.active {
+    background-color: #0473aa;
+    color: white;
+  }
+
+  .topnav .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+      display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .topnav.responsive {
+      position: relative;
+    }
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
+  .tf {
+    text-align: right;
+    padding-right: 20px;
+    font-size: 20px;
+    color: #5cddfa;
+  }
+  .if {
+    width: 32px;
+    height: 32px;
+    border-radius: 20px;
+    float: right;
+  }
+    </style>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="Resources.html">Resourses</a>
+        <a href="Feedback.html">Feedback</a>
+        <a href="Login.html">Register/Login</a>
+        <a href="About.html">About Us</a>
+        <h1 class="tf">
+          Neuro Nirvana &nbsp; &nbsp;
+          <img
+            src="https://th.bing.com/th/id/OIG.cuc5pnmZrhOSerVtAuCJ?w=270&h=270&c=6&r=0&o=5&dpr=2&pid=ImgGn"
+            class="if"
+          />
+        </h1>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <header>
+        <h1>About Us</h1>
+        <p>Discover our mission, values, and the team behind Mental Health Resources.</p>
+    </header>
+
+    <main class="container">
+        <section class="about-section">
+            <h2>Our Mission</h2>
+            <p>At Mental Health Resources, we are dedicated to promoting mental health and well-being in the digital age. Our mission is to provide a safe and supportive space where individuals can access resources, tools, and a caring community to enhance their mental and emotional health.</p>
+        </section>
+
+        <section class="about-section">
+            <h2>Our Story</h2>
+            <p>Founded by a team of mental health advocates and professionals, Mental Health Resources was born out of a shared passion for making a positive impact on people's lives. Our journey began when we realized the challenges that individuals face in today's fast-paced, digitally connected world. We set out to create a platform that would empower people to take control of their mental well-being and find support when they need it most.</p>
+        </section>
+
+      <section class="about-section">
+        <h2>Get in touch</h2>
+        <p>Have questions or feedback? We'd love to hear from you. Feel free to contact us at <b>neuronirvana@email.com</b> , and our team will be happy to assist you.</p>
+      </section>
+
+      <section class="about-section">
+        <h2>Join Us on the Journey</h2>
+        <p>We invite you to explore our website, engage with our resources, and join our growing community on the path to improved mental health and well-being. Your well-being matters, and we're here to support you every step of the way.
+
+            Thank you for considering <b>Neuro Nirvana</b> as your trusted resource for mental health and well-being.
+            </p>
+      </section>
+            </ul>
+        </section>
+
+
+
+        <!-- Include additional sections as needed -->
+    </main>
+
+    <footer>
+        <p>About Us </p>
+    </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+      </script>
+</body>
+</html>
